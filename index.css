@@ -1,10 +1,9 @@
 * {
-	padding: 0;
-	margin: 0;
+	box-sizing: border-box;
 }
 p {
-	padding: 50px 40px 45px 50px;
-	margin: 40px 40px 45px 45px;
+	position: static;
+	top: 20px;
 	color: black;
 	text-align: center;
 	font-family: sans-serif;
@@ -21,8 +20,8 @@ body {
 
 .heading {
 	color: red;
-	padding: 5px 5px;
-	margin: 5px 5px;
+	margin: auto;
+	padding: 10px;
 	text-align: center;
 	font-family: sans-serif;
 	font-size: 20px;
@@ -31,13 +30,39 @@ body {
 	opacity: 0.75;
 }
 
-.navbar li {
-	font-family: sans-serif;
-	color: white;
-	font-size: 16px;
-	margin: 5px 5px;
-	padding: 5px 5px;
-	border: 1px dotted;
-	border-radius: 5px;
+header {
+	background-color: white;
+	opacity: 0.75;
+	margin: auto;
+	width: 20%;
+	border-style: 3px dotted black;
+	text-align: center;
+	z-index: 10;
+
+
 }
 
+.login body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px; 
+}
+
+.login label {
+	font-weight: bold;
+	width: 100px;
+	font-size: 14px;
+}
+
+.box {
+	border: red solid 1px;
+
+}
+.table {
+	display: table;
+	margin: 0 auto;
+}
+ul#horizontal-list {
+	min-width: 600px;
+	list-style: none;
+	padding-top: 20px;
+}
